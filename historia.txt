@@ -1,0 +1,96 @@
+0) Como se llamaban los gobernantes del antiguo Egipto?
+a- Basileos
+b- Faraones
+c- Presidentes
+d- Alcaldes
+b
+1) El x8086 implementa el siguiente metodo de escritura de palabras de 16 bits en memoria
+a- High Endian
+b- Little Endian
+c- Middle Endian
+d- Big Endian
+b
+2) En que anio se declaro la independencia argentina?
+a- 1816
+b- 1810
+c- 1825
+d- 1778
+a
+3) Cuando estamos en precencia de un sobreflujo(overFlow) en la ALU?Cuando el resultado de una operacion..
+a- Cae fuera del rango de representacion
+b- Es tan cercano a cero que no puede representarlo 
+c- Da negativo y hay un acarreo
+d- Puede representarse con menos cantidad de bits
+a
+4) Quien fue el primer presidente estadounidense?
+a- William Harrison
+b- Thomas Jefferson
+c- George Washington
+d- John Adams
+c
+5) De cuando a cuando duro el periodo "Entre guerras"?
+a- 1925 a 1940
+b- 1918 a 1939
+c- 1940 a 1954
+d- 1903 a 1914
+b
+6) Cual fue el causante de la "Gran Depresion"?
+a- La guerra fria
+b- El crack del 29
+c- La primera guerra mundial
+d- El lunes blanco
+b
+7) Cuando cayo Tenochtitlan, capital del imperio Azteca-mexica?
+a- El 1 de mayo de 1886
+b- El 12 de octubre de 1492
+c- El 13 de agosto de 1521
+d- El 14 de octubre de 1669
+c
+8) Que tipo de memoria no necesitan refresco?
+a- NPROM
+b- DRAM
+c- PROM
+d- DROM
+b
+9) Que se conmemora el 12 de octubre?
+a- Dia del padre
+b- Dia del helado
+c- Dia de la diversidad cultural+
+d- Dia del trabajador
+c
+10) Cual es el procesador del Ordenador Fugaku ?
+a-Procesadores ARM A64FX 48C 2,2 GHz (48 nucleos)
+b-Procesadores ARM A64FX 48C 2,4 GHz (48 nucleos)
+c-Procesadores ARM A64FX 48C 2,6 GHz (48 nucleos)
+d-Procesadores ARM A64FX 48C 1,6 GHz (48 nucleos)
+a
+11) Quien es el inventor de la lampara incandescente?
+a- Fabio Bruschetti
+b- Thomas Alva Edison
+c- Elton John
+d- Rick Astley
+b
+12) Quien es el padre de las cadenas de produccion?
+a- Willfred Smith
+b- Andrew Jackson
+c- Alberto Lamagna
+d- Henry Ford
+d
+13) En que anio murio Juan Domingo Peron?
+a- 1974
+b- 1982
+c- 1970
+d- 1985
+a
+14) Con que instruccion debe comenzarse la ISR si deseo anidamiento??
+a-CLI
+b-SIF
+c-STI
+d-NMI
+c
+15) La arquitecturas de Von Neumajnn y Harvard se enmarcan en la siguiente clasificacion de Flynn?
+a- SISD+
+b- DISD
+c- SMSD
+d- SIMD
+a
