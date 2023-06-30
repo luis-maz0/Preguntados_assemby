@@ -13,12 +13,13 @@
     ;valor_linea_final dw 1100  
     ;-----
     ;-----Para 100 lineas: Verificar que en el txt hayan 100 lineas 
-    cantidad_lineas dw 100
-    valor_linea_final dw 9900  
+    cantidad_lineas dw 6
+    valor_linea_final dw 500  
     ;-----
     respuesta db ?
     correcto db "CORRECTO",0dh, 0ah,"$" 
-    incorrecto db "INCORRECTO",0dh, 0ah,"$" 
+    incorrecto db "INCORRECTO",0dh, 0ah,"$"
+
 
 ;lineas
     linea01 db 97 dup("$"),0dh,0ah,"$" 
@@ -27,107 +28,112 @@
     linea04 db 97 dup("$"),0dh,0ah,"$" 
     linea05 db 97 dup("$"),0dh,0ah,"$" 
     linea06 db 97 dup("$"),0dh,0ah,"$" 
-    linea07 db 97 dup("$"),0dh,0ah,"$" 
-    linea08 db 97 dup("$"),0dh,0ah,"$" 
-    linea09 db 97 dup("$"),0dh,0ah,"$" 
-    linea10 db 97 dup("$"),0dh,0ah,"$" 
-    linea11 db 97 dup("$"),0dh,0ah,"$" 
-    linea12 db 97 dup("$"),0dh,0ah,"$" 
-    linea13 db 97 dup("$"),0dh,0ah,"$" 
-    linea14 db 97 dup("$"),0dh,0ah,"$" 
-    linea15 db 97 dup("$"),0dh,0ah,"$" 
-    linea16 db 97 dup("$"),0dh,0ah,"$" 
-    linea17 db 97 dup("$"),0dh,0ah,"$" 
-    linea18 db 97 dup("$"),0dh,0ah,"$" 
-    linea19 db 97 dup("$"),0dh,0ah,"$" 
-    linea20 db 97 dup("$"),0dh,0ah,"$" 
-    linea21 db 97 dup("$"),0dh,0ah,"$" 
-    linea22 db 97 dup("$"),0dh,0ah,"$" 
-    linea23 db 97 dup("$"),0dh,0ah,"$" 
-    linea24 db 97 dup("$"),0dh,0ah,"$" 
-    linea25 db 97 dup("$"),0dh,0ah,"$" 
-    linea26 db 97 dup("$"),0dh,0ah,"$" 
-    linea27 db 97 dup("$"),0dh,0ah,"$" 
-    linea28 db 97 dup("$"),0dh,0ah,"$" 
-    linea29 db 97 dup("$"),0dh,0ah,"$" 
-    linea30 db 97 dup("$"),0dh,0ah,"$" 
-    linea31 db 97 dup("$"),0dh,0ah,"$" 
-    linea32 db 97 dup("$"),0dh,0ah,"$" 
-    linea33 db 97 dup("$"),0dh,0ah,"$" 
-    linea34 db 97 dup("$"),0dh,0ah,"$" 
-    linea35 db 97 dup("$"),0dh,0ah,"$" 
-    linea36 db 97 dup("$"),0dh,0ah,"$" 
-    linea37 db 97 dup("$"),0dh,0ah,"$" 
-    linea38 db 97 dup("$"),0dh,0ah,"$" 
-    linea39 db 97 dup("$"),0dh,0ah,"$" 
-    linea40 db 97 dup("$"),0dh,0ah,"$" 
-    linea41 db 97 dup("$"),0dh,0ah,"$" 
-    linea42 db 97 dup("$"),0dh,0ah,"$" 
-    linea43 db 97 dup("$"),0dh,0ah,"$" 
-    linea44 db 97 dup("$"),0dh,0ah,"$" 
-    linea45 db 97 dup("$"),0dh,0ah,"$" 
-    linea46 db 97 dup("$"),0dh,0ah,"$" 
-    linea47 db 97 dup("$"),0dh,0ah,"$" 
-    linea48 db 97 dup("$"),0dh,0ah,"$" 
-    linea49 db 97 dup("$"),0dh,0ah,"$" 
-    linea50 db 97 dup("$"),0dh,0ah,"$" 
-    linea51 db 97 dup("$"),0dh,0ah,"$" 
-    linea52 db 97 dup("$"),0dh,0ah,"$" 
-    linea53 db 97 dup("$"),0dh,0ah,"$" 
-    linea54 db 97 dup("$"),0dh,0ah,"$" 
-    linea55 db 97 dup("$"),0dh,0ah,"$" 
-    linea56 db 97 dup("$"),0dh,0ah,"$" 
-    linea57 db 97 dup("$"),0dh,0ah,"$" 
-    linea58 db 97 dup("$"),0dh,0ah,"$" 
-    linea59 db 97 dup("$"),0dh,0ah,"$" 
-    linea60 db 97 dup("$"),0dh,0ah,"$" 
-    linea61 db 97 dup("$"),0dh,0ah,"$" 
-    linea62 db 97 dup("$"),0dh,0ah,"$" 
-    linea63 db 97 dup("$"),0dh,0ah,"$" 
-    linea64 db 97 dup("$"),0dh,0ah,"$" 
-    linea65 db 97 dup("$"),0dh,0ah,"$" 
-    linea66 db 97 dup("$"),0dh,0ah,"$" 
-    linea67 db 97 dup("$"),0dh,0ah,"$" 
-    linea68 db 97 dup("$"),0dh,0ah,"$" 
-    linea69 db 97 dup("$"),0dh,0ah,"$" 
-    linea70 db 97 dup("$"),0dh,0ah,"$" 
-    linea71 db 97 dup("$"),0dh,0ah,"$" 
-    linea72 db 97 dup("$"),0dh,0ah,"$" 
-    linea73 db 97 dup("$"),0dh,0ah,"$" 
-    linea74 db 97 dup("$"),0dh,0ah,"$" 
-    linea75 db 97 dup("$"),0dh,0ah,"$" 
-    linea76 db 97 dup("$"),0dh,0ah,"$" 
-    linea77 db 97 dup("$"),0dh,0ah,"$" 
-    linea78 db 97 dup("$"),0dh,0ah,"$" 
-    linea79 db 97 dup("$"),0dh,0ah,"$" 
-    linea80 db 97 dup("$"),0dh,0ah,"$" 
-    linea81 db 97 dup("$"),0dh,0ah,"$" 
-    linea82 db 97 dup("$"),0dh,0ah,"$" 
-    linea83 db 97 dup("$"),0dh,0ah,"$" 
-    linea84 db 97 dup("$"),0dh,0ah,"$" 
-    linea85 db 97 dup("$"),0dh,0ah,"$" 
-    linea86 db 97 dup("$"),0dh,0ah,"$" 
-    linea87 db 97 dup("$"),0dh,0ah,"$" 
-    linea88 db 97 dup("$"),0dh,0ah,"$" 
-    linea89 db 97 dup("$"),0dh,0ah,"$" 
-    linea90 db 97 dup("$"),0dh,0ah,"$" 
-    linea91 db 97 dup("$"),0dh,0ah,"$" 
-    linea92 db 97 dup("$"),0dh,0ah,"$" 
-    linea93 db 97 dup("$"),0dh,0ah,"$" 
-    linea94 db 97 dup("$"),0dh,0ah,"$" 
-    linea95 db 97 dup("$"),0dh,0ah,"$" 
-    linea96 db 97 dup("$"),0dh,0ah,"$" 
-    linea97 db 97 dup("$"),0dh,0ah,"$" 
-    linea98 db 97 dup("$"),0dh,0ah,"$" 
-    linea99 db 97 dup("$"),0dh,0ah,"$" 
-    linea100 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea07 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea08 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea09 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea10 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea11 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea12 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea13 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea14 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea15 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea16 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea17 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea18 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea19 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea20 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea21 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea22 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea23 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea24 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea25 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea26 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea27 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea28 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea29 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea30 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea31 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea32 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea33 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea34 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea35 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea36 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea37 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea38 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea39 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea40 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea41 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea42 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea43 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea44 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea45 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea46 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea47 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea48 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea49 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea50 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea51 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea52 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea53 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea54 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea55 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea56 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea57 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea58 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea59 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea60 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea61 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea62 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea63 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea64 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea65 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea66 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea67 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea68 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea69 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea70 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea71 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea72 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea73 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea74 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea75 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea76 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea77 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea78 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea79 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea80 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea81 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea82 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea83 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea84 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea85 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea86 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea87 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea88 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea89 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea90 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea91 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea92 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea93 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea94 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea95 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea96 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea97 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea98 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea99 db 97 dup("$"),0dh,0ah,"$" 
+    ; linea100 db 97 dup("$"),0dh,0ah,"$" 
 ;fin lineas
 
     
 .code 
     public copiar_txt_a_variables
     public imprimir_preguntas 
-
+    public limpiar_pantalla
+    public agregar_delay
+    public mostrar_cartel
+    public centrar_texto
+    public reg_to_ascii
+    
     copiar_txt_a_variables proc 
             push ax 
             push dx
@@ -206,12 +212,16 @@
 
     imprimir_preguntas proc
         ;Recibe como parametro el offset de la linea a leer. 
+        ;Retorna puntos por bp 
+
         push ax 
         push dx 
         push si 
         push cx
-        push bx  
+        push bx
+         
         
+        mov bp, 0 ;Contador de puntos
         lea si, linea01 ;arrancamos en posición 0
         
         ;Mostar solamente preguntas. 
@@ -228,7 +238,6 @@
             jmp ciclo_lectura
         fin_ciclo_lectura: ;llega hasta la respuesta. 
         
-
         ingresar_otro_char:
             ;Ingreso de respuesta por el usuario
             mov ah, 00h ;retorna en al el ascii 
@@ -257,6 +266,7 @@
                 jmp respuesta_incorrecta
 
             respuesta_correcta:
+                inc bp ;Incrementa puntos 
                 mov ah, 9
                 lea dx, correcto
                 int 21h 
@@ -279,6 +289,7 @@
 
             final_preguntas:
             fin_chequeo:
+                
                 pop bx  
                 pop cx 
                 pop si
@@ -287,6 +298,122 @@
                 ret 
     imprimir_preguntas endp
 
+    limpiar_pantalla proc 
+        ;Define el modo de video y limpia la pantalla. 
+            push ax 
+
+            ;Definimos modo de video. 
+            mov ax, 00h 
+            mov al, 13h ;vga 320x200px
+            int 10h 
+
+            ;Definimos color de fondo. 
+            mov ah, 0bh 
+            mov bh, 00h ;paleta de color -> 00h: fondo y borde
+            mov bl, 00h ;color -> 00h: negro
+            int 10h
+
+            pop ax 
+            ret 
+    limpiar_pantalla endp 
+
+    centrar_texto proc
+        ;Encargada posicionar el cursor, recibe como argumento por stack el valor de la fila y columna.  
+
+        ;**Como la pantalla es de 320x200 px y cada caracteres ocupa 8x8px => tendremos 40 columnas y 25 filas. 
+        push bp 
+        mov bp, sp
+
+        ;Salvo entorno
+        push ax
+        push cx 
+        
+        ;Hago referencia al parametro recibido por stack. 
+        mov cx, ss:[bp + 4] 
+        
+        ;Establecemos la posición del cursor
+        mov ah, 02h 
+        mov bh, 00h ;num pág. memoria de video
+        mov dh, ch ;Seteamos fila
+        mov dl, cl ;Seteamos columna
+        int 10h 
+
+        pop cx
+        pop ax
+        pop bp 
+        ret 2
+    centrar_texto endp
+    
+    agregar_delay proc
+        push ax
+        push cx
+        push dx
+        mov cx, 2000 ; Establecer el número de iteraciones del bucle exterior para una pausa de 1 segundo
+
+        delay_loop:
+            mov dx, 0FFFFh   ; Establecer el número máximo para el bucle interior
+
+            innerLoop:
+                dec dx ;Decrementar el contador del bucle interior
+                jnz innerLoop ;Saltar al bucle interior si el contador dx no es cero
+            loop delay_loop ;Continuar con el bucle exterior si el contador cx no es cero
+        pop dx
+        pop cx
+        pop ax
+        ret
+
+    agregar_delay endp 
+
+    mostrar_cartel proc
+        ;Recibe como argumento por stack el offset del texto a mostrar. 
+        push bp 
+        mov bp, sp 
+
+        ;Salvo entorno
+        push ax
+        push bx
+
+        ;Hago referencia al parametro recibido por stack. 
+        mov bx, ss:[bp + 4] 
+
+        ;Mostrar cartel
+        mov ah, 09h
+        mov dx, bx 
+        int 21h
+
+        pop bx
+        pop ax
+        pop bp  
+        ret 2
+    mostrar_cartel endp 
+
+    reg_to_ascii proc
+        ;Recibe en bx el offset de la variable que acumulará la cantidad de rtas correctas (1 bytes), y el numero a convertir por dl no mayor a 255. 
+        push ax
+        push dx
+
+        add bx,2
+        mov ax,0
+        mov al, dl
+        mov dl, 10
+        div dl
+        add [bx],ah
+
+        mov ah,0
+        dec bx
+        div dl
+        add [bx],ah
+
+        mov ah,0
+        dec bx
+        div dl
+        add [bx],ah
+
+        pop dx
+        pop ax
+
+        ret
+    reg_to_ascii endp
 
 
     ; num_random proc 

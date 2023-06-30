@@ -1,0 +1,271 @@
+0) Como se llamaban los gobernantes del antiguo Egipto?
+a- Basileos
+b- Faraones
+c- Presidentes
+d- Alcaldes
+b
+1) El x8086 implementa el siguiente metodo de escritura de palabras de 16 bits en memoria
+a- High Endian
+b- Little Endian
+c- Middle Endian
+d- Big Endian
+b
+2) En que ano se declaro la independencia argentina?
+a- 1816
+b- 1810
+c- 1825
+d- 1778
+a
+3) Quien es el inventor de la lampara incandescente?
+a- Fabio Bruschetti
+b- Thomas Alva Edison
+c- Elton John
+d- Rick Astley
+b
+4) Quien es el jugador de futbol con mas goles en la historia de la Liga Espaniola?
+a) Lionel Messi
+b) Cristiano Ronaldo
+c) Telmo Zarra
+d) Hugo Sanchez
+a
+5) Quien fue el primer presidente estadounidense?
+a- William Harrison
+b- Thomas Jefferson
+c- George Washington
+d- John Adams
+c
+6) De cuando a cuando duro el periodo "Entre guerras"?
+a- 1925 a 1940
+b- 1918 a 1939
+c- 1940 a 1954
+d- 1903 a 1914
+b
+7) Cual fue el causante de la "Gran Depresion"?
+a- La guerra fria
+b- El crack del 29
+c- La primera guerra mundial
+d- El lunes blanco
+b
+8) Quien es el jugador de baloncesto con mas anillos de campeonato de la NBA?
+a) Kobe Bryant
+b) Michael Jordan
+c) Bill Russell
+d) LeBron James
+c 
+9) Cuando cayo Tenochtitlan, capital del imperio Azteca-mexica?
+a- El 1 de mayo de 1886
+b- El 12 de octubre de 1492
+c- El 13 de agosto de 1521
+d- El 14 de octubre de 1669
+c
+10) Que tipo de memoria no necesitan refresco?
+a- NPROM
+b- DRAM
+c- PROM
+d- DROM
+b
+11) Que se conmemora el 12 de octubre?
+a- Dia del padre
+b- Dia del helado
+c- Dia de la diversidad cultural
+d- Dia del trabajador
+c
+12) Quien es el jugador de tenis con mas titulos de Grand Slam en la historia?
+a) Rafael Nadal
+b) Roger Federer
+c) Novak Djokovic
+d) Pete Sampras
+b 
+13) Cual es el procesador del Ordenador Fugaku ?
+a-Procesadores ARM A64FX 48C 2,2 GHz (48 nucleos)
+b-Procesadores ARM A64FX 48C 2,4 GHz (48 nucleos)
+c-Procesadores ARM A64FX 48C 2,6 GHz (48 nucleos)
+d-Procesadores ARM A64FX 48C 1,6 GHz (48 nucleos)
+a
+14) Estamos en presencia de un overFlow en la ALU cuando el resultado de una operacion..
+a- Cae fuera del rango de representacion
+b- Es tan cercano a cero que no puede representarlo 
+c- Da negativo y hay un acarreo
+d- Puede representarse con menos cantidad de bits
+a
+15) Quien es el padre de las cadenas de produccion?
+a- Willfred Smith
+b- Andrew Jackson
+c- Alberto Lamagna
+d- Henry Ford
+d
+16) En que ano murio Juan Domingo Peron?
+a- 1974
+b- 1982
+c- 1970
+d- 1985
+a
+17) En que ano se celebro el primer Campeonato Mundial de Futbol?
+a) 1930
+b) 1950
+c) 1970
+d) 1990
+a 
+18) Con que instruccion debe comenzarse la ISR si deseo anidamiento?
+a-CLI
+b-SIF
+c-STI
+d-NMI
+c
+19) Cual es la pelicula mas taquillera de la historia del cine?
+a) Avatar
+b) Titanic
+c) Avengers: Endgame
+d) Star Wars: El despertar de la fuerza
+c 
+20) Cual es el videojuego mas vendido de la historia?
+a) Minecraft
+b) Grand Theft Auto V
+c) Tetris
+d) Super Mario Bros
+a
+21) Cual es la serie de television mas vista de la historia?
+a) Friends
+b) Juego de Tronos
+c) Breaking Bad
+d) Los Simpson
+d 
+22) Cual es la obra de teatro mas representada de la historia?
+a) Hamlet
+b) Romeo y Julieta
+c) La gaviota
+d) El fantasma de la opera
+d
+23) Cual es la novela mas vendida de la historia?
+a) El Quijote de la Mancha
+b) Donde el corazon te lleve
+c) Cien anos de soledad
+d) El principito
+a 
+24) La arquitectura de Von Neumann se enmarca en la siguiente clasificacion de Flynn
+a- SISD
+b- DISD
+c- SMSD
+d- SIMD
+a
+25) Por que las chapas se vuelan?
+a) Porque no las clavan
+b) Debido a las diferencias de presiones (El principio de Bernoulli)
+c) Porque hay mucho viento
+d) Por las condiciones térmicas y acústicas
+b
+26) Que isla es la mas grande del mundo?
+a- Bali
+b- Madagascar
+c- Kodak
+d- Groenlandia
+d
+27) Cual es la capital de Dinamarca?
+a- Frankfurt
+b- Copenhague
+c- Aarhus
+d- Simbjerg
+b
+28) Donde se encuentra la escultura "David" de Miguel Angel?
+a- Valencia
+b- Milan
+c- Florencia
+d- Napoli
+c
+29) Cual es el Estado mas grande de Estados Unidos?
+a- Alaska
+b- Maine
+c- Illinois
+d- California
+a
+30) En que pais se encuentra el Monte Everest?
+a- Groenlandia
+b- Butan
+c- Indonesia
+d- Nepal
+d
+31) Que hace guardia sobre las piramides de giza?
+a- El dipy
+b- La estatua de la libertad
+c- Michael Jackson
+d- La gran esfinge
+d
+32) Que pais tiene a Baku como capital?
+a- Azerbaiyan
+b- Oman
+c- Yemen
+d- Trinidad y tobago
+a
+33) Cual es la capital de Georgia?
+a- Narikala
+b- Jvari
+c- Tiflis
+d- La valeta
+c
+34) Que mide un barometro?
+a- Temperatura
+b- Velocidad
+c- Presion del aire
+d- Distancias
+c
+35) Que planeta del sistema solar esta mas cerca del sol?
+a- Venus
+b- Mercurio
+c- Marte
+d- Neptuno
+b
+36) Cual de estas opciones es una fase lunar?
+a- Cuarto oscuro
+b- Medio creciente
+c- Cuarto de libra
+d- Cuarto menguante
+d
+37) Que planeta tiene nombre de dios griego?
+a- Saturno
+b- Pluton
+c- Urano
+d- Tierra
+c
+38) Cual es el organo mas grande del cuerpo?
+a- Las piernas
+b- El intestino
+c- La piel
+d- La columna vertebral
+c
+39) Cual es el pajaro mas grande del mundo?
+a- Avestruz
+b- Pinguino
+c- Hornero
+d- Colibri
+a
+40) Cual es la formula quimica del agua oxigenada?
+a- H2O
+b- H3I
+c- H2O2
+d- H2O3
+c
+41) Quien interpreto a Hitler en 'El gran dictador'?
+a- Jimmy Hopkins
+b- Adrian Suar
+c- Nicolas Cage
+d- Charles Chaplin
+d
+42) Cual es el video mas visto de la historia?
+a- Gangnam style
+b- Despacito
+c- Shape of you 
+d- Baby shark
+d
+43) Cual es el protagonista de Piratas del Caribe?
+a- Pedro Iriso
+b- Jack Sparrow
+c- Johnny Depp
+d- Anthony De La Torre
+b
+44) Quien interpreta a Ron Weasley en Harry Potter?
+a- Alan Stone
+b- Robert Smith
+c- James Rickman
+d- Rupert Grint
+d
+
